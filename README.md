@@ -12,3 +12,8 @@ Make sure you have Python 3.6+ installed. Then, in your project folder, run:
 
 ```bash
 pip install fastapi uvicorn
+
+## 2. Run uvicorn
+
+uvicorn main:app --reload
+
